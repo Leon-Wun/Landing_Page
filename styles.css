@@ -1,14 +1,15 @@
 .header {
   display: flex;
   justify-content: space-between;
+  background-color: #1f2937;
+  padding: 10px 50px 50px 50px;
+  /* remember to add flex grow shrink */
 }
 
 .logo {
-  max-width: 100px;
-  max-height: 100px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  font-size: 24px;
+  font-family: monospace;
+  color: #f9faf8;
 }
 
 .header ul {
@@ -16,4 +17,47 @@
   display: flex;
   gap: 10px;
   justify-content: flex-end;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.header-container {
+  background-color: #1f2937;
+  display: flex;
+  padding: 10px 50px 50px 50px;
+  justify-content: space-between;
+  /* remember to add flex grow shrink */
+}
+
+.mainText {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  font-family: monospace;
+  margin: 0px;
+}
+
+.subText {
+  display: flex;
+  justify-content: flex-start;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 0px;
+}
+
+.subjectImage {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 0px;
+  color: #e5e7eb;
+  margin-top: 10px;
+  border-radius: 10px;
 }
